@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Opportunities</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fbeff4;
+    }
+    .hero-section {
+      padding: 100px 0;
+      background-color: #fbeff4;
+    }
+    .hero-text h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+    .hero-text p {
+      font-size: 1.2rem;
+    }
+    .hero-image img {
+      max-width: 100%;
+      height: auto;
+    }
+    .navbar-nav .nav-link {
+      font-weight: 500;
+    }
+    .btn-primary {
+      background-color: #5ca660;
+      border: none;
+    }
+    .btn-outline-primary {
+      border-color: #5ca660;
+      color: #5ca660;
+    }
+    .btn-outline-primary:hover {
+      background-color: #5ca660;
+      color: #fff;
+    }
+    .section-title {
+      position: relative;
+      padding-bottom: 20px;
+    }
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 50px;
+      height: 4px;
+      background-color: #d9534f; 
+    }
+    .card-icon {
+      font-size: 2.5rem;
+      color: #5ca660;
+    }
+    .card-title {
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    .card-description {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+    body{
+    background-color: #f8f9fa; 
+    }
+    .card {
+      border-radius: 20px; 
+    }
+    .card-img-top {
+      height: 180px; 
+      object-fit: cover; 
+      border-top-left-radius: 20px; 
+      border-top-right-radius: 20px;
+    }
+    .card-footer {
+      background: inherit; 
+      border: 0; 
+    }
+    .card-title {
+      color: #333; 
+    }
+    .card-text {
+      font-size: 0.9rem; 
+      color: #666; 
+    }
+    body {
+      background-color: #fdecea; 
+    }
+    .newsletter-section {
+      background-color: #fdecea;
+      padding: 80px 0;
+    }
+    .newsletter-section h2 {
+      font-size: 2rem;
+      color: #333;
+    }
+    .newsletter-section p {
+      color: #666;
+      font-size: 1rem;
+    }
+    .newsletter-section .form-control {
+      border-radius: 30px;
+      padding: 15px 20px;
+      border: 2px solid #ced4da;
+    }
+    .newsletter-section .btn-subscribe {
+      background-color: #85c38a;
+      color: white;
+      border-radius: 30px;
+      padding: 15px 30px;
+      border: none;
+      transition: background-color 0.3s;
+    }
+    .newsletter-section .btn-subscribe:hover {
+      background-color: #6faf6b;
+    }
+    .newsletter-section .sub-text {
+      color: #a4c2a5;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f8f9fa;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      padding: 40px 0;
+    }
+
+    footer h6 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      margin-bottom: 10px;
+    }
+
+    footer ul li a {
+      text-decoration: none;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    footer ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-contact i {
+      font-size: 1.2rem;
+      margin-right: 10px;
+      color: #85c38a;
+    }
+
+    .social-icons a {
+      font-size: 1.5rem;
+      margin-right: 15px;
+      color: #85c38a;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #6faf6b;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .footer-bottom span {
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Brandname</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary ms-3" href="#">JOIN US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 hero-text">
+          <p class="text-success fw-bold">Welcome</p>
+          <h1>Best Learning Opportunities</h1>
+          <p>Our goal is to make online education work for everyone.</p>
+          <div class="mt-4">
+            <a href="#" class="btn btn-primary me-3">Join Us</a>
+            <a href="#" class="btn btn-outline-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-6 hero-image">
+          <img src="https://media.istockphoto.com/id/1370433251/photo/black-woman-sitting-at-desk-using-computer-writing-in-notebook.jpg?s=612x612&w=0&k=20&c=rHpy3cX4LVFtzLI4gyy0T-fNYdTeAcdNQgTmy9maAIA=">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Packages Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="section-title">
+            <h2 class="fw-bold">Approachable Packages</h2>
+            <p>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics.</p>
+            <a href="#" class="text-success">Learn More &rarr;</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm text-center p-4">
+                <div class="card-icon">
+                  <i class="bi bi-person"></i> 
+                </div>
+                <h5 class="card-title">Certified Teacher</h5>
+                <p class="card-description">The gradual accumulation of information about.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm text-center p-4">
+                <div class="card-icon">
+                  <i class="bi bi-lightbulb"></i> 
+                </div>
+                <h5 class="card-title">Expert Instruction</h5>
+                <p class="card-description">The gradual accumulation of information about.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Get Quality Education</h2>
+      <p class="mb-5">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+      
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="https://media.gettyimages.com/id/1352606416/photo/young-woman-working-at-home-stock-photo.jpg?s=612x612&w=0&k=20&c=uKfBCoTeP54nA8KOzXDLIyoU31nZ4a4UreFE4p_x_3A=">
+            <div class="card-body">
+              <h5 class="card-title">Julian Jameson</h5>
+              <p class="card-text">Profession</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="text-decoration-none text-dark"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-decoration-none text-dark ms-3"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-decoration-none text-dark ms-3"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center">
+              <img src="https://media.gettyimages.com/id/1500285927/photo/young-woman-a-university-student-studying-online.jpg?s=612x612&w=0&k=20&c=yvFDnYMNEJ6WEDYrAaOOLXv-Jhtv6ViBRXSzJhL9S_k=">
+              <div class="card-body">
+                <h5 class="card-title">Samon</h5>
+                <p class="card-text">Profession</p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="text-decoration-none text-dark"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-decoration-none text-dark ms-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-decoration-none text-dark ms-3"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="https://media.gettyimages.com/id/1384332904/photo/laughing-young-man.jpg?s=612x612&w=0&k=20&c=FsGVyzNwhKoZMLoVTUm87Y-RMunRciRjHxn_OKH9nWw=">
+              <div class="card-body">
+                <h5 class="card-title">Antila Jameson</h5>
+                <p class="card-text">Profession</p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="text-decoration-none text-dark"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-decoration-none text-dark ms-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-decoration-none text-dark ms-3"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="https://media.gettyimages.com/id/1323851976/photo/classmates-are-learning-through-laptop.jpg?s=612x612&w=0&k=20&c=Np1osLGMa-b1jKLvrpteJBO9vinhkSHkRVgg-7VAOAk=">
+              <div class="card-body">
+                <h5 class="card-title">California James</h5>
+                <p class="card-text">Profession</p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="text-decoration-none text-dark"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-decoration-none text-dark ms-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-decoration-none text-dark ms-3"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+     </div>
+    </div>
+  </section>
+  <section class="newsletter-section text-center">
+    <div class="container">
+      <p class="sub-text">Newsletter</p>
+      <h2>Watch our Courses</h2>
+      <p>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+  
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form action="#" method="post" class="d-flex">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+            <button type="submit" class="btn btn-subscribe ms-3">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section -->
+<footer>
+    <div class="container">
+      <div class="row">
+        <!-- Company Info -->
+        <div class="col-md-3">
+          <h6>Company Info</h6>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Carrier</a></li>
+            <li><a href="#">We are hiring</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+  
+        <!-- Legal -->
+        <div class="col-md-3">
+          <h6>Legal</h6>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Carrier</a></li>
+            <li><a href="#">We are hiring</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+  
+        <!-- Features -->
+        <div class="col-md-3">
+          <h6>Features</h6>
+          <ul>
+            <li><a href="#">Business Marketing</a></li>
+            <li><a href="#">User Analytic</a></li>
+            <li><a href="#">Live Chat</a></li>
+            <li><a href="#">Unlimited Support</a></li>
+          </ul>
+        </div>
+  
+        <!-- Resources -->
+        <div class="col-md-3">
+          <h6>Resources</h6>
+          <ul>
+            <li><a href="#">IOS & Android</a></li>
+            <li><a href="#">Watch a Demo</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">API</a></li>
+          </ul>
+        </div>
+  
+        <!-- Contact Info (Get In Touch) -->
+        <div class="col-md-3 d-flex flex-column">
+          <h6>Get In Touch</h6>
+          <p><i class="bi bi-telephone"></i>(480) 555-0103</p>
+          <p><i class="bi bi-geo-alt"></i>4517 Washington Ave. Manchester, Kentucky 39495</p>
+          <p><i class="bi bi-envelope"></i>debra.holt@example.com</p>
+        </div>
+      </div>
+  
+      <!-- Footer Bottom -->
+      <div class="footer-bottom text-center mt-4">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Made With Love By FigmaLand All Rights Reserved</p>
+          </div>
+        </div>
+  
+        <!-- Social Icons -->
+        <div class="social-icons text-center mt-2">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
